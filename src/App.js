@@ -5,11 +5,16 @@ function App() {
   const word = "Hello";
   return (
     <div className="App">
+    <header className="App-header">
+    <h1>
+       Chitsanupong Juntan 6135512056
+    </h1>
       <div>
         {
           <WordCard value="hello"/>
         }
       </div>
+    </header>
     </div>
   );
 }

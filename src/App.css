@@ -16,36 +16,38 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
+  background-image: url("https://i.pinimg.com/originals/6b/6c/ac/6b6cac408b29038dd27108aec58996a9.gif");
+  padding: 25px;
+  background-color: #5fecff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(15, 107, 110);
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
   color: #61dafb;
 }
 .card {
-  color: rgb(247, 232, 167);
+  color: rgba(248, 242, 242, 0.514);
+  background-color: rgba(7, 185, 216, 0.13);
   display: inline-block;
   text-align: center;
   width: 11em;
-  font-size: 3em;
+  font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 2em;
   user-select: none;
  }
 
  .activeCard {
-  color: rgb(16, 65, 56);
-  background: rgb(57, 144, 163);
+  background: rgba(255, 127, 80, 0.205);
+  color: rgb(253, 253, 253);
  }
- 
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
