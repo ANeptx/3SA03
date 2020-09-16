@@ -34,10 +34,10 @@
 }
 .card {
   color: rgba(248, 242, 242, 0.514);
-  background-color: rgba(7, 185, 216, 0.13);
+  background-color: rgba(70, 23, 29, 0.466);
   display: inline-block;
   text-align: center;
-  width: 11em;
+  width: 3em;
   font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 2em;
