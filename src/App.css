@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rosybrown;
 }
 
 .App-logo {
@@ -10,6 +11,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    background-color: cadetblue;
   }
 }
 
@@ -21,25 +23,26 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(15, 107, 110);
 }
 
 .App-link {
   color: #61dafb;
 }
 .card {
+  color: rgb(247, 232, 167);
   display: inline-block;
   text-align: center;
-  width: 3em;
-  font-size: 2em;
+  width: 11em;
+  font-size: 3em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 1em;
+  margin: 2em;
   user-select: none;
  }
 
  .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(16, 65, 56);
+  background: rgb(57, 144, 163);
  }
  
 
